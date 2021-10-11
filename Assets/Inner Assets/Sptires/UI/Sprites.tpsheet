@@ -1,0 +1,73 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:e79338836a7c4f08164914f9550654d7:0bc35bd21556489878663424e53e7bca:8ab4c75ff4b1bbcb67e3b6e53ae23d58$
+#
+:format=40300
+:texture=Sprites.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=enabled
+:alphahandling=ClearTransparentPixels
+
+AllLevelsNotcieScreen-buttonClose;1336;1404;39;39; 0.506098;0.818182; 0;0;0;0
+AllLevelsNotcieScreen-Rectangle 154;1393;1269;612;354; 0.506098;0.818182; 0;0;0;0
+GameScreen-bombIcon;699;897;512;512; 0.506098;0.818182; 0;0;0;0
+GameScreen-bomBiCON2;648;1731;64;64; 0.506098;0.818182; 0;0;0;0
+GameScreen-buttonChangeColor;1216;1295;114;114; 0.5;0.5; 0;0;0;0
+GameScreen-buttonClose;648;1315;38;38; 0.506098;0.818182; 0;0;0;0
+GameScreen-coinIcon;339;937;100;100; 0.5;0.5; 0;0;0;0
+GameScreen-collorsCont;1;1879;720;168; 0.5;0.5; 180;180;84;84
+GameScreen-Cont_NotCollected;126;937;78;78; 0.506098;0.818182; 0;0;0;0
+GameScreen-levelCompleteIcon;126;854;78;78; 0.5;0.5; 0;0;0;0
+GameScreen-levelNotCompleteIcon;648;1800;66;74; 0.5;0.5; 0;0;0;0
+GameScreen-lockIcon;1216;1073;160;168; 0.506098;0.818182; 0;0;0;0
+GameScreen-Rectangle 114;1895;639;140;140; 0.5;0.5; 0;0;0;0
+GameScreen-Rectangle 115;1216;777;156;156; 0.506098;0.818182; 0;0;0;0
+GameScreen-timeContForColorTimer;236;1111;216;84; 0.506098;0.818182; 0;0;0;0
+GameScreen-timeContForUssual;457;1111;216;84; 0.506098;0.818182; 0;0;0;0
+GameScreen-timerIcon;1336;1448;40;40; 0.506098;0.818182; 0;0;0;0
+GetEnergyScreen-button_buyEnergy;1724;784;288;110; 0.5;0.5; 0;0;0;0
+GetEnergyScreen-buttonBuyEnergy_disabled;1742;899;288;110; 0.5;0.5; 0;0;0;0
+GetEnergyScreen-buttonClose;1336;1493;44;44; 0.5;0.5; 0;0;0;0
+GetEnergyScreen-cont;1;1200;642;674; 0.5;0.5; 0;0;0;0
+GetEnergyScreen-energyIcon;1;895;120;120; 0.5;0.5; 0;0;0;0
+GetEnergyScreen-iconAd;1336;1660;52;56; 0.5;0.5; 0;0;0;0
+GetEnergyScreen-progressBar_Cont;1838;1194;206;70; 0.5;0.5; 0;0;0;0
+GetEnergyScreen-progressBarIcon;1216;1246;164;44; 0.5;0.5; 41;41;22;22
+MainScreen-button_buyCoins;648;1402;46;46; 0.5;0.5; 0;0;0;0
+MainScreen-buttonLevels_disable;1838;1125;206;64; 0.5;0.5; 0;0;0;0
+MainScreen-buttonLevels_enable;236;1042;206;64; 0.5;0.5; 0;0;0;0
+MainScreen-buttonRelax_disable;1;1020;206;64; 0.5;0.5; 0;0;0;0
+MainScreen-buttonRelax_enable;447;1042;206;64; 0.5;0.5; 0;0;0;0
+MainScreen-buttonSettings;543;873;76;76; 0.5;0.5; 0;0;0;0
+MainScreen-buttonsModeCont;1385;1174;448;90; 0.5;0.5; 0;0;0;0
+MainScreen-buttonStart;1381;912;356;122; 0.5;0.5; 0;0;0;0
+MainScreen-coins_icon;648;1507;50;50; 0.5;0.5; 0;0;0;0
+MainScreen-coinsInfoCont;1377;694;278;104; 0.5;0.5; 0;0;0;0
+MainScreen-energyIcon;1336;1603;52;52; 0.5;0.5; 0;0;0;0
+MainScreen-energyInfoCont;1377;803;342;104; 0.5;0.5; 0;0;0;0
+MainScreen-energyProgressBar_Cont;212;995;122;42; 0.5;0.5; 0;0;0;0
+MainScreen-energyProgressBar_icon;648;1700;64;26; 0.5;0.5; 16;16;13;13
+MainScreen-levelItemCont;648;1562;58;66; 0.506098;0.818182; 0;0;0;0
+MainScreen-levelNoticeCont;726;1721;662;326; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-addIcon;1336;1542;45;56; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-againButton;1216;938;160;130; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-buttonClose;444;943;94;94; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-buttonReviveForAd;1790;1014;230;106; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-buttonReviveForCoins;1660;673;230;106; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-cont;1393;1823;652;224; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-header;1393;1628;652;190; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-homeIcon;648;1453;47;49; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-nextButton;1381;1039;404;130; 0.506098;0.818182; 0;0;0;0
+ReviveScreen-notEnableButton;1;1089;230;106; 0.506098;0.818182; 0;0;0;0
+SettingsScreen-buttonClose;648;1358;39;39; 0.506098;0.818182; 0;0;0;0
+SettingsScreen-buttonsCont;209;890;100;100; 0.506098;0.818182; 0;0;0;0
+SettingsScreen-buttonsContDisabled;1;790;100;100; 0.506098;0.818182; 0;0;0;0
+SettingsScreen-cont;717;1414;614;302; 0.506098;0.818182; 0;0;0;0
+SettingsScreen-restorePurchaseIcon;444;864;74;74; 0.506098;0.818182; 0;0;0;0
+SettingsScreen-soundIcon;648;1633;62;62; 0.506098;0.818182; 0;0;0;0
+SettingsScreen-vibrationIcon;543;954;88;83; 0.506098;0.818182; 0;0;0;0
