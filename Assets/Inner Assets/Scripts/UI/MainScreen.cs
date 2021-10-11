@@ -65,22 +65,10 @@ public class MainScreen : MonoBehaviour
         var levelNumber = DataManager.Instance.GetLastAvailableLevelNumber();
         if (DataManager.Instance.dataForLevelGrouper.Length > levelNumber)
         {
-            var energyCount = DataManager.Instance.GetEnergyCount();
-            if (energyCount == 0)
-            {
-                AudioManager.Instance.PlayAudioSource(AudioManager.AudioSourcesIds.SHOW_ENERGY_SCREEN);
-                VibrationManager.Instance.Vibrate(MoreMountains.NiceVibrations.HapticTypes.Failure);
-
-                WindowsManager.Instance.FromMainToGetEnergyScreen(gameObject);
-            }
-            else
-            {
-                buttonStart.interactable = false;
-                AudioManager.Instance.PlayAudioSource(AudioManager.AudioSourcesIds.MAIN_SCREEN_START);
-                VibrationManager.Instance.Vibrate(MoreMountains.NiceVibrations.HapticTypes.SoftImpact);
-                DataManager.Instance.Set_EnergyCount(--energyCount);
-                WindowsManager.Instance.FromMainScreenToGame(gameObject, createdGameManager);
-            }
+            buttonStart.interactable = false;
+            AudioManager.Instance.PlayAudioSource(AudioManager.AudioSourcesIds.MAIN_SCREEN_START);
+            VibrationManager.Instance.Vibrate(MoreMountains.NiceVibrations.HapticTypes.SoftImpact);
+            WindowsManager.Instance.FromMainScreenToGame(gameObject, createdGameManager);
         }
         else
         {

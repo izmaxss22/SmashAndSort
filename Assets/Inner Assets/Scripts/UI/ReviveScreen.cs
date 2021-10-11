@@ -100,21 +100,8 @@ public class ReviveScreen : MonoBehaviour
         if (DataManager.Instance.dataForLevelGrouper.Length > levelNumber + 1)
         {
 
-            var energyCount = DataManager.Instance.GetEnergyCount();
-            if (energyCount == 0)
-            {
-                AudioManager.Instance.PlayAudioSource(AudioManager.AudioSourcesIds.SHOW_ENERGY_SCREEN);
-                VibrationManager.Instance.Vibrate(MoreMountains.NiceVibrations.HapticTypes.Failure);
-
-                WindowsManager.Instance.FromAfterGameToGetEnergyScreen(gameObject);
-            }
-            else
-            {
-                buttonNext.GetComponent<Button>().interactable = false;
-                DataManager.Instance.Set_EnergyCount(--energyCount);
-
-                StartCoroutine(SwitchToNextLevel());
-            }
+            buttonNext.GetComponent<Button>().interactable = false;
+            StartCoroutine(SwitchToNextLevel());
         }
         else
         {
@@ -124,21 +111,9 @@ public class ReviveScreen : MonoBehaviour
 
     public void OnClickButtonAgain()
     {
-        var energyCount = DataManager.Instance.GetEnergyCount();
-        if (energyCount == 0)
-        {
-            AudioManager.Instance.PlayAudioSource(AudioManager.AudioSourcesIds.SHOW_ENERGY_SCREEN);
-            VibrationManager.Instance.Vibrate(MoreMountains.NiceVibrations.HapticTypes.Failure);
-
-            WindowsManager.Instance.FromAfterGameToGetEnergyScreen(gameObject);
-        }
-        else
-        {
-            buttonNext.GetComponent<Button>().interactable = false;
-            buttonAgain.GetComponent<Button>().interactable = false;
-            DataManager.Instance.Set_EnergyCount(--energyCount);
-            StartCoroutine(StartLevelAgain());
-        }
+        buttonNext.GetComponent<Button>().interactable = false;
+        buttonAgain.GetComponent<Button>().interactable = false;
+        StartCoroutine(StartLevelAgain());
     }
 
     #endregion
