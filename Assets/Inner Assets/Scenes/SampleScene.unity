@@ -5724,7 +5724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d09fa4af24fe4167bbd79b4cc61bc94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count_secondsForNextEnergyTimer: 0
 --- !u!114 &488610872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8725,7 +8724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2067469267
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8746,7 +8745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -220, y: -47.899902}
+  m_AnchoredPosition: {x: -220, y: -47.902344}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2067469268
@@ -9936,20 +9935,15 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6296592454401944489, guid: c2ebe45c76a9a483c963f83e5d5df065,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6296592454401944489, guid: c2ebe45c76a9a483c963f83e5d5df065,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8631695897760419370, guid: c2ebe45c76a9a483c963f83e5d5df065,
         type: 3}
       propertyPath: m_Name
       value: energyAndCoinsPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8631695897760419370, guid: c2ebe45c76a9a483c963f83e5d5df065,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2ebe45c76a9a483c963f83e5d5df065, type: 3}
